@@ -1,7 +1,7 @@
 ###             SPRING BOOT COOKBOOK 学习导航
 
 ###  本工程参考的电子书籍  Spring Boot Cookbook
-     1：原书采用的SpringBoot 比较老，是1.3.x 我这里采用的是 Spring Boot 1.5.9.
+     1：原书采用的SpringBoot的版本目前看来是比较老的,书中采用的SpringBoot版本是1.2.5 我这里采用的SpringBoot版本是1.5.9.
      
      2：原书采用的构建工具是Gradle，我这里采用的构建工具是Maven.
      
