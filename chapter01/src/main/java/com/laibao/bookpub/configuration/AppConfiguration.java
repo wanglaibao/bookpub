@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * @author laibao wang
@@ -14,6 +15,7 @@ import org.springframework.core.annotation.Order;
  * @version 1.0
  */
 @Configuration
+@EnableScheduling
 public class AppConfiguration {
 
     @Bean
