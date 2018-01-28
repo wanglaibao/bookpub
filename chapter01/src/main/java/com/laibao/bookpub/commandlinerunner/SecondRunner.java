@@ -3,7 +3,9 @@ package com.laibao.bookpub.commandlinerunner;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 
+@Order(2)
 public class SecondRunner implements CommandLineRunner{
     private final Log logger = LogFactory.getLog(SecondRunner.class);
 

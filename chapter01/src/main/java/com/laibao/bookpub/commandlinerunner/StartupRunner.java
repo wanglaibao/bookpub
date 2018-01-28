@@ -5,9 +5,11 @@ import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 
 import java.util.Collections;
 
+@Order(3)
 public class StartupRunner implements CommandLineRunner {
     private final Log logger = LogFactory.getLog(StartupRunner.class);
 

@@ -19,19 +19,16 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class AppConfiguration {
 
     @Bean
-    @AutoConfigureOrder(3)
     public StartupRunner startupRunner() {
         return new StartupRunner();
     }
 
     @Bean
-    @AutoConfigureOrder(2)
     public SecondRunner secondRunner() {
         return new SecondRunner();
     }
 
     @Bean
-    @AutoConfigureOrder(1)
     public ThirdRunner ThirdRunner() {
         return new ThirdRunner();
     }

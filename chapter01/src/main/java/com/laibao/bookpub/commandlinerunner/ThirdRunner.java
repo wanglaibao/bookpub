@@ -6,10 +6,12 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.scheduling.annotation.Scheduled;
 
 import javax.sql.DataSource;
 
+@Order(1)
 public class ThirdRunner implements CommandLineRunner{
     private final Log logger = LogFactory.getLog(ThirdRunner.class);
 
